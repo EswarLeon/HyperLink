@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+body a{
+    font-size: larger;
+}
+table a{
+    transition: 0.3s ease;
+}
+table a:hover{
+    opacity: 0.7;
+    /* transition: 0.3s; */
+    /* background-color: rgb(255, 255, 0); */
+    border-radius: 10px;
+    transform: scale(1.1);
+    color: blue;
+}
+table a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:300;
+}
+.Desc{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:justify;
+    font-size: larger;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.3s ;
+}
+.back-to-top:hover {
+    opacity: 1;
+    
+}
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #cacacaad;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid #ccc;
+    z-index: 100;
+}
+
